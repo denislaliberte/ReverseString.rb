@@ -13,5 +13,6 @@ describe "reverse" do
   end
   it "reverse string" do 
     expect(reverse("abc")).to eq("cba")
+    expect(reverse("adsfqwefasvtyhertbergb")).to eq("adsfqwefasvtyhertbergb".reverse)
   end
 end
