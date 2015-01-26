@@ -7,5 +7,6 @@ describe "reverse" do
   end
   it "reverse two charactere string" do
     expect(reverse("ab")).to eq("ba")
+    expect(reverse("ac")).to eq("ca")
   end
 end
