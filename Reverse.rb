@@ -1,5 +1,4 @@
 
-
 def reverse(input)
   if(not input or input.size <=1 )
     input
@@ -7,4 +6,3 @@ def reverse(input)
     input[-1..-1] + reverse(input[0..-2])
   end
 end
-

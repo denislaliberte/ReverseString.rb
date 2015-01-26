@@ -1,6 +1,5 @@
 require './Reverse.rb'
 
-
 describe "reverse" do
   it "return input string if it contains one ore less char" do
     expect(reverse("")).to eq("")
