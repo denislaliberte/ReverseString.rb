@@ -11,4 +11,7 @@ describe "reverse" do
     expect(reverse("ac")).to eq("ca")
     expect(reverse("bc")).to eq("cb")
   end
+  it "reverse string" do 
+    expect(reverse("abc")).to eq("cba")
+  end
 end
